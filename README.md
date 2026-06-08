@@ -3,7 +3,7 @@
 Production-ready portfolio website built with React 18, TypeScript, and Vite.  
 Inspired by Linear, Vercel, Framer, and Raycast.
 
-**Live:** portfolio-two-phi-60.vercel.app
+**Live:** https://sankalpa-portfolio-v2.vercel.app/
 
 ---
 
