@@ -53,7 +53,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="/portfolio-react-ts/Resume_Sankalpa_Sovan_Samal.pdf"
+              href="public/Resume_Sankalpa_Sovan_Samal.pdf"
               download
               className={styles.resumeBtn}
               onClick={() => setMenuOpen(false)}
