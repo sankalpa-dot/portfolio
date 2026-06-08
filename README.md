@@ -158,7 +158,7 @@ git commit -m "feat: complete portfolio v2.0 rebuild"
 git push origin main
 ```
 
-The site deploys to: `https://sannskaarr.github.io/portfolio-react-ts/`
+The site deploys to: `https://sankalpa-dot.github.io/portfolio-react-ts/`
 
 #### Manual deploy (alternative):
 ```bash
