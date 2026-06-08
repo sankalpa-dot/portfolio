@@ -128,7 +128,7 @@ with your actual ID.
 ### 4. Update GitHub username (if different)
 In `src/components/GitHubStats.tsx`:
 ```tsx
-const GITHUB_USER = "sannskaarr"; // update if your username changed
+const GITHUB_USER = "sankalpa-dot"; // update if your username changed
 ```
 
 ### 5. Add real project URLs
