@@ -221,7 +221,7 @@ export const CERTIFICATIONS: Certification[] = [
     date: "April 2025",
     score: "55%",
     credentialUrl:
-      "https://nptel.ac.in/", // [REPLACE: Add exact certificate URL]
+      "https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs11/Course/NPTEL25CS11S95620007304250209.pdf", // [REPLACE: Add exact certificate URL]
     icon: "☁️",
   },
   {
@@ -231,7 +231,7 @@ export const CERTIFICATIONS: Certification[] = [
     date: "October 2025",
     score: "73%",
     credentialUrl:
-      "https://nptel.ac.in/", // [REPLACE: Add exact certificate URL]
+      "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs112/Course/NPTEL25CS112S66800022610819897.pdf", // [REPLACE: Add exact certificate URL]
     icon: "🖥️",
   },
 ];
