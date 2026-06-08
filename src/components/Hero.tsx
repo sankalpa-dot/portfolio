@@ -88,7 +88,7 @@ const Hero = () => {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/sankalpasovansamal"
+            href="http://www.linkedin.com/in/sankalpa-sovan-samal-a9b8a2243"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.socialLink}
