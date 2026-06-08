@@ -14,10 +14,7 @@ const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (FORMSPREE_ID === "mbdeodjy") {
-      alert("Please set your Formspree form ID in src/components/Contact.tsx");
-      return;
-    }
+   
     setStatus("sending");
     const form = e.currentTarget;
     try {
