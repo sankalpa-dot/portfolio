@@ -1,0 +1,149 @@
+/* src/styles/Education.module.css */
+
+.education { }
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.item:last-child { padding-bottom: 0; }
+
+/* Timeline Line */
+.timelineLine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-glow);
+  flex-shrink: 0;
+  transition: box-shadow 0.3s;
+}
+
+.item:hover .dot {
+  box-shadow: 0 0 0 6px rgba(99, 179, 237, 0.25);
+}
+
+.connector {
+  width: 1px;
+  flex: 1;
+  background: linear-gradient(to bottom, var(--accent), transparent);
+  margin-top: 0.4rem;
+  opacity: 0.3;
+}
+
+/* Card */
+.card {
+  padding: 1.5rem 1.75rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.degree {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.institution {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.15rem;
+}
+
+.location {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.duration {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Highlights */
+.highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.highlightDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent-2);
+  flex-shrink: 0;
+  margin-top: 0.45rem;
+}
+
+/* Coursework */
+.coursework {
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.courseworkLabel {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 0.65rem;
+}
+
+.courseworkTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 640px) {
+  .item { grid-template-columns: 16px 1fr; gap: 0.75rem; }
+  .dot { width: 10px; height: 10px; }
+  .cardHeader { flex-direction: column; align-items: flex-start; }
+  .meta { flex-direction: row; align-items: center; }
+}

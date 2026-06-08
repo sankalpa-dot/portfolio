@@ -1,0 +1,122 @@
+/* src/styles/Research.module.css */
+
+.research { }
+
+/* Papers */
+.papers {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 3.5rem;
+}
+
+.paper { padding: 1.75rem; }
+
+.paperHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.paperDate {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.paperTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.85rem;
+  line-height: 1.35;
+}
+
+.paperAbstract {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin-bottom: 1.1rem;
+}
+
+.paperMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.authors {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.metaLabel {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.viewLink {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  transition: color 0.2s;
+}
+
+.viewLink:hover { color: #93c6f4; }
+
+/* Interests */
+.interestsSection { }
+
+.interestsTitle {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.interestsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.interest {
+  padding: 1.4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.interestIcon { font-size: 1.75rem; }
+
+.interestTitle {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.interestDesc {
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 640px) {
+  .interestsGrid { grid-template-columns: 1fr; }
+  .paperHeader { flex-direction: column; align-items: flex-start; gap: 0.4rem; }
+}

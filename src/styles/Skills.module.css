@@ -1,0 +1,111 @@
+/* src/styles/Skills.module.css */
+
+.skills { }
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.categoryTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: var(--font-mono);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.75rem;
+}
+
+/* Skill Card */
+.skillCard {
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.skillTop {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.skillIcon {
+  font-size: 1.35rem;
+  flex-shrink: 0;
+}
+
+.skillName {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Skill Bar */
+.skillBar {
+  display: flex;
+  gap: 3px;
+}
+
+.skillBarSegment {
+  height: 3px;
+  flex: 1;
+  border-radius: 2px;
+  background: var(--border);
+  transition: background 0.3s;
+}
+
+.skillBarSegment.filled {
+  background: var(--accent);
+}
+
+.skillCard:hover .skillBarSegment.filled {
+  background: var(--accent-2);
+}
+
+/* Legend */
+.legend {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.legendLabel {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.legendItem .skillBar {
+  width: 40px;
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 640px) {
+  .skillGrid { grid-template-columns: repeat(2, 1fr); }
+  .legend { gap: 0.75rem; }
+}
