@@ -176,7 +176,7 @@ const Contact = () => {
 
           <div className={styles.socialLinks}>
             <a
-              href="https://github.com/sannskaarr"
+              href="https://github.com/sankalpa-dot"
               target="_blank"
               rel="noopener noreferrer"
               className={`glass-card ${styles.socialCard}`}
@@ -186,7 +186,7 @@ const Contact = () => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/sankalpasovansamal"
+              href="http://www.linkedin.com/in/sankalpa-sovan-samal-a9b8a2243"
               target="_blank"
               rel="noopener noreferrer"
               className={`glass-card ${styles.socialCard}`}
