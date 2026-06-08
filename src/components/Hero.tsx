@@ -65,7 +65,7 @@ const Hero = () => {
             Get in Touch
           </a>
           <a
-            href="public/Resume_Sankalpa_Sovan_Samal.pdf"
+            href="/Resume_Sankalpa_Sovan_Samal.pdf"
             download
             className={styles.resumeLink}
             aria-label="Download Resume PDF"
