@@ -3,7 +3,7 @@ import { useScrollReveal } from "../hooks/useScrollReveal";
 import styles from "../styles/GitHubStats.module.css";
 
 // GitHub username — update if changed
-const GITHUB_USER = "sannskaarr";
+const GITHUB_USER = "sankalpa-dot";
 
 const GitHubStats = () => {
   const { ref, isVisible } = useScrollReveal<HTMLElement>();
