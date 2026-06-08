@@ -74,7 +74,7 @@ export const EDUCATION: Education[] = [
     location: "Cuttack, Odisha, India",
     duration: "2019 – 2021",
     cgpa: "82.83%",
-    highlights: ["Aggregate: 82.83%", "Stream: Science (PCM + Computer Science)"],
+    highlights: ["Aggregate: 82.83%", "Stream: Science (PCM + Biology)"],
     coursework: [],
   },
   {
@@ -98,7 +98,7 @@ export const PROJECTS: Project[] = [
       "Baker's Kitchen is a full-stack food ordering platform enabling users to browse menus, place orders, and track deliveries. Built with a responsive UI and a Node.js backend, it demonstrates end-to-end web development skills including authentication, database design, and RESTful API integration.",
     tech: ["HTML", "CSS", "JavaScript", "Node.js", "MySQL"],
     githubUrl: "https://github.com/bipasa2003/bakers-kitchen",
-    liveUrl: "", // [REPLACE: Add live URL when deployed]
+    liveUrl: "https://bipasa2003.github.io/bakers-kitchen/#Gallery-Id", // [REPLACE: Add live URL when deployed]
     features: [
       "User authentication & session management",
       "Dynamic menu browsing with category filters",
