@@ -65,7 +65,7 @@ const Hero = () => {
             Get in Touch
           </a>
           <a
-            href="/portfolio-react-ts/Resume_Sankalpa_Sovan_Samal.pdf"
+            href="public/Resume_Sankalpa_Sovan_Samal.pdf"
             download
             className={styles.resumeLink}
             aria-label="Download Resume PDF"
@@ -78,7 +78,7 @@ const Hero = () => {
         {/* Social links */}
         <div className={styles.socials}>
           <a
-            href="https://github.com/sannskaarr"
+            href="https://github.com/sankalpa-dot"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.socialLink}
