@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sannskaarr.github.io/portfolio-react-ts/sitemap.xml
+Sitemap: https://codewithsankalpa.vercel.app/sitemap.xml
