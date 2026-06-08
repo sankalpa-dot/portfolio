@@ -20,7 +20,7 @@ const Footer = () => {
           <a href="#projects">Projects</a>
           <a href="#research">Research</a>
           <a href="#contact">Contact</a>
-          <a href="public/Resume_Sankalpa_Sovan_Samal.pdf" download>Resume</a>
+          <a href="/Resume_Sankalpa_Sovan_Samal.pdf" download>Resume</a>
         </nav>
 
         <div className={styles.socials}>
