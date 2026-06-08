@@ -25,25 +25,19 @@ const GitHubStats = () => {
         {/* GitHub Stats Card */}
         <div className={`glass-card ${styles.statCard}`}>
           <img
-            src={`https://github-readme-stats.vercel.app/api?username=${GITHUB_USER}&show_icons=true&theme=transparent&hide_border=true&title_color=63b3ed&text_color=94a3b8&icon_color=76e4bc&bg_color=00000000&count_private=true`}
-            alt="GitHub Statistics for Sankalpa Sovan Samal"
-            loading="lazy"
-            width="495"
-            height="195"
-            className={styles.statImg}
-          />
+  src={`https://github-readme-stats.vercel.app/api?username=sankalpa-dot&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400`}
+  alt="GitHub Statistics"
+  className={styles.statImg}
+/>
         </div>
 
         {/* Top Languages Card */}
         <div className={`glass-card ${styles.statCard}`}>
-          <img
-            src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${GITHUB_USER}&layout=compact&theme=transparent&hide_border=true&title_color=63b3ed&text_color=94a3b8&bg_color=00000000`}
-            alt="Top Programming Languages for Sankalpa Sovan Samal"
-            loading="lazy"
-            width="495"
-            height="195"
-            className={styles.statImg}
-          />
+         <img
+  src={`https://github-readme-stats.vercel.app/api/top-langs/?username=sankalpa-dot&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400`}
+  alt="Top Languages"
+  className={styles.statImg}
+/>
         </div>
 
         {/* Streak Card */}
