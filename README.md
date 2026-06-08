@@ -3,7 +3,7 @@
 Production-ready portfolio website built with React 18, TypeScript, and Vite.  
 Inspired by Linear, Vercel, Framer, and Raycast.
 
-**Live:** https://sannskaarr.github.io/portfolio-react-ts/
+**Live:** portfolio-two-phi-60.vercel.app
 
 ---
 
