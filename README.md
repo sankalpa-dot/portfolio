@@ -291,7 +291,7 @@ Search for `[REPLACE` in the codebase to find all placeholder items:
 
 ## License
 
-MIT — feel free to adapt this portfolio for your own use.
+MIT — feel free to adapt this portfolio for your own use
 
 ---
 
