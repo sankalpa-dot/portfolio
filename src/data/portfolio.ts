@@ -119,7 +119,7 @@ export const PROJECTS: Project[] = [
     longDescription:
       "HungR solves the affordability and discovery problem for student dining by creating a two-sided marketplace that connects local home caterers with university students. The platform supports caterer listings, meal browsing, and contact-based ordering with a lightweight, accessible interface.",
     tech: ["HTML", "CSS", "JavaScript", "Node.js", "MySQL"],
-    githubUrl: "https://github.com/sannskaarr/HungR.git",
+    githubUrl: "https://github.com/Sankalpa-dot/HungR.git",
     liveUrl: "", // [REPLACE: Add live URL when deployed]
     features: [
       "Two-sided marketplace for caterers and students",
@@ -141,7 +141,7 @@ export const PROJECTS: Project[] = [
     longDescription:
       "MEDEXA is a full-stack medical search platform built with React and Node.js that indexes verified healthcare resources. It implements custom search ranking logic and presents results with source attribution to help users access credible medical information quickly. The platform prioritizes accuracy and readability over raw speed.",
     tech: ["React", "Node.js", "MySQL", "JavaScript"],
-    githubUrl: "https://github.com/sannskaarr", // [REPLACE: Add exact repo URL]
+    githubUrl: "https://github.com/Sankalpa-dot", // [REPLACE: Add exact repo URL]
     liveUrl: "", // [REPLACE: Add live URL when deployed]
     features: [
       "Custom search ranking algorithm for medical relevance",
@@ -163,7 +163,7 @@ export const PROJECTS: Project[] = [
     longDescription:
       "Designed and documented an IPv6-based IoT mesh routing architecture using the RPL protocol (RFC 6550), analyzing network topology, energy efficiency, and fault tolerance in low-power embedded environments. Produced technical documentation and comparative simulation analysis of routing strategies in constrained IoT nodes.",
     tech: ["IPv6", "RPL Protocol", "IoT", "Network Simulation", "Python"],
-    githubUrl: "https://github.com/sannskaarr", // [REPLACE: Add exact repo URL]
+    githubUrl: "https://github.com/Sankalpa-dot", // [REPLACE: Add exact repo URL]
     liveUrl: "",
     features: [
       "RFC 6550 RPL protocol implementation analysis",
