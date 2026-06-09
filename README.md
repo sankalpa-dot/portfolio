@@ -87,7 +87,7 @@ portfolio-react-ts/
 
 ```bash
 # 1. Clone your repository
-git clone https://github.com/sannskaarr/portfolio-react-ts.git
+git clone https://github.com/sankalpa-dot/portfolio-react-ts.git
 cd portfolio-react-ts
 
 # 2. Install dependencies
