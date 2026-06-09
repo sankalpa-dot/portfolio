@@ -120,7 +120,7 @@ const Projects = () => {
       <div className={`${styles.githubCta} reveal reveal-delay-3 ${isVisible ? "visible" : ""}`}>
         <p>More projects on GitHub</p>
         <a
-          href="https://github.com/sannskaarr"
+          href="https://github.com/sankalpa-dot"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-outline"
